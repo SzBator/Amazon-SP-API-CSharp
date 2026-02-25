@@ -98,7 +98,13 @@ namespace FikaAmazonAPI.AmazonSpApiSDK.Models.Finances.Model
             [EnumMember(Value = "SETTLEMENT_ID")]
             SETTLEMENTID = 11,
             [EnumMember(Value = "SAFET_CLAIM_ID")]
-            SAFETCLAIMID = 12
+            SAFETCLAIMID = 12,
+
+            /// <summary>
+            /// Enum PAYMENTEVENTID for value: PAYMENT_EVENT_ID
+            /// </summary>
+            [EnumMember(Value = "PAYMENT_EVENT_ID")]
+            PAYMENTEVENTID = 13,
         }
 
         /// <summary>
